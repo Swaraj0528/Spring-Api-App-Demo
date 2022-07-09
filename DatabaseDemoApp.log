@@ -1,0 +1,223 @@
+2022-07-09 14:46:43.526  INFO 20432 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Starting SpringApiAppDemoApplication using Java 17.0.3 on LAPTOP-532Q7DSK with PID 20432 (D:\Freelancing\STS Workspace\Spring-Api-App-Demo\target\classes started by SWARAJ in D:\Freelancing\STS Workspace\Spring-Api-App-Demo)
+2022-07-09 14:46:43.526  INFO 20432 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-09 14:46:43.614  INFO 20432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9099 (http)
+2022-07-09 14:46:43.615  INFO 20432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-09 14:46:43.616  INFO 20432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-09 14:46:43.628  INFO 20432 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-09 14:46:43.628  INFO 20432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 101 ms
+2022-07-09 14:46:43.650  INFO 20432 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-09 14:46:43.666  INFO 20432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-09 14:46:43.673  INFO 20432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9099 (http) with context path ''
+2022-07-09 14:46:43.676  INFO 20432 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Started SpringApiAppDemoApplication in 0.187 seconds (JVM running for 1460.523)
+2022-07-09 14:46:43.677  INFO 20432 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-09 14:48:00.676  INFO 20432 --- [http-nio-9099-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-09 14:48:00.676  INFO 20432 --- [http-nio-9099-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-09 14:48:00.677  INFO 20432 --- [http-nio-9099-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-09 14:49:32.380  INFO 20432 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Starting SpringApiAppDemoApplication using Java 17.0.3 on LAPTOP-532Q7DSK with PID 20432 (D:\Freelancing\STS Workspace\Spring-Api-App-Demo\target\classes started by SWARAJ in D:\Freelancing\STS Workspace\Spring-Api-App-Demo)
+2022-07-09 14:49:32.380  INFO 20432 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-09 14:49:32.470  INFO 20432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9099 (http)
+2022-07-09 14:49:32.471  INFO 20432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-09 14:49:32.471  INFO 20432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-09 14:49:32.483  INFO 20432 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-09 14:49:32.483  INFO 20432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 101 ms
+2022-07-09 14:49:32.487  WARN 20432 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'postmanContoller' defined in file [D:\Freelancing\STS Workspace\Spring-Api-App-Demo\target\classes\com\spring\controller\PostmanContoller.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.spring.controller.PostmanContoller]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+
+2022-07-09 14:49:32.487  INFO 20432 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-09 14:49:32.491  INFO 20432 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-09 14:49:32.494 ERROR 20432 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'postmanContoller' defined in file [D:\Freelancing\STS Workspace\Spring-Api-App-Demo\target\classes\com\spring\controller\PostmanContoller.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.spring.controller.PostmanContoller]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.1.jar:2.7.1]
+	at com.spring.SpringApiAppDemoApplication.main(SpringApiAppDemoApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.1.jar:2.7.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.spring.controller.PostmanContoller]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+
+	at com.spring.controller.PostmanContoller.<init>(PostmanContoller.java:24) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 24 common frames omitted
+
+2022-07-09 14:49:33.950  INFO 20432 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Starting SpringApiAppDemoApplication using Java 17.0.3 on LAPTOP-532Q7DSK with PID 20432 (D:\Freelancing\STS Workspace\Spring-Api-App-Demo\target\classes started by SWARAJ in D:\Freelancing\STS Workspace\Spring-Api-App-Demo)
+2022-07-09 14:49:33.951  INFO 20432 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-09 14:49:34.044  INFO 20432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9099 (http)
+2022-07-09 14:49:34.045  INFO 20432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-09 14:49:34.045  INFO 20432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-09 14:49:34.056  INFO 20432 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-09 14:49:34.056  INFO 20432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 104 ms
+2022-07-09 14:49:34.079  INFO 20432 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-09 14:49:34.093  INFO 20432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-09 14:49:34.101  INFO 20432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9099 (http) with context path ''
+2022-07-09 14:49:34.104  INFO 20432 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Started SpringApiAppDemoApplication in 0.167 seconds (JVM running for 1630.951)
+2022-07-09 14:49:34.105  INFO 20432 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-09 14:51:04.137  INFO 20432 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Starting SpringApiAppDemoApplication using Java 17.0.3 on LAPTOP-532Q7DSK with PID 20432 (D:\Freelancing\STS Workspace\Spring-Api-App-Demo\target\classes started by SWARAJ in D:\Freelancing\STS Workspace\Spring-Api-App-Demo)
+2022-07-09 14:51:04.137  INFO 20432 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-09 14:51:04.222  INFO 20432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9099 (http)
+2022-07-09 14:51:04.223  INFO 20432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-09 14:51:04.223  INFO 20432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-09 14:51:04.234  INFO 20432 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-09 14:51:04.235  INFO 20432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 97 ms
+2022-07-09 14:51:04.258  INFO 20432 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-09 14:51:04.271  INFO 20432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-09 14:51:04.278  INFO 20432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9099 (http) with context path ''
+2022-07-09 14:51:04.283  INFO 20432 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Started SpringApiAppDemoApplication in 0.16 seconds (JVM running for 1721.13)
+2022-07-09 14:51:04.284  INFO 20432 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-09 14:51:07.797  INFO 20432 --- [http-nio-9099-exec-2] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-09 14:51:07.798  INFO 20432 --- [http-nio-9099-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-09 14:51:07.798  INFO 20432 --- [http-nio-9099-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-09 14:51:48.680  INFO 20432 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Starting SpringApiAppDemoApplication using Java 17.0.3 on LAPTOP-532Q7DSK with PID 20432 (D:\Freelancing\STS Workspace\Spring-Api-App-Demo\target\classes started by SWARAJ in D:\Freelancing\STS Workspace\Spring-Api-App-Demo)
+2022-07-09 14:51:48.680  INFO 20432 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-09 14:51:48.765  INFO 20432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9099 (http)
+2022-07-09 14:51:48.765  INFO 20432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-09 14:51:48.765  INFO 20432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-09 14:51:48.776  INFO 20432 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-09 14:51:48.776  INFO 20432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 94 ms
+2022-07-09 14:51:48.798  INFO 20432 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-09 14:51:48.812  INFO 20432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-09 14:51:48.820  INFO 20432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9099 (http) with context path ''
+2022-07-09 14:51:48.822  INFO 20432 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Started SpringApiAppDemoApplication in 0.155 seconds (JVM running for 1765.67)
+2022-07-09 14:51:48.824  INFO 20432 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-09 14:51:58.477  INFO 20432 --- [RMI TCP Connection(96)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-09 14:52:29.068  INFO 7000 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Starting SpringApiAppDemoApplication using Java 17.0.3 on LAPTOP-532Q7DSK with PID 7000 (D:\Freelancing\STS Workspace\Spring-Api-App-Demo\target\classes started by SWARAJ in D:\Freelancing\STS Workspace\Spring-Api-App-Demo)
+2022-07-09 14:52:29.070  INFO 7000 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-09 14:52:29.132  INFO 7000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-09 14:52:29.132  INFO 7000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-09 14:52:29.791  INFO 7000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-09 14:52:29.805  INFO 7000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2022-07-09 14:52:30.258  INFO 7000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9099 (http)
+2022-07-09 14:52:30.265  INFO 7000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-09 14:52:30.265  INFO 7000 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-09 14:52:30.320  INFO 7000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-09 14:52:30.321  INFO 7000 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1187 ms
+2022-07-09 14:52:30.451  INFO 7000 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-09 14:52:30.505  INFO 7000 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-09 14:52:30.675  INFO 7000 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-09 14:52:30.784  INFO 7000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-09 14:52:31.332  INFO 7000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-09 14:52:31.355  INFO 7000 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-07-09 14:52:32.002  INFO 7000 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-09 14:52:32.009  INFO 7000 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 14:52:32.047  WARN 7000 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-09 14:52:32.173  INFO 7000 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-09 14:52:32.313  INFO 7000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-09 14:52:32.344  INFO 7000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9099 (http) with context path ''
+2022-07-09 14:52:32.352  INFO 7000 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Started SpringApiAppDemoApplication in 3.623 seconds (JVM running for 4.25)
+2022-07-09 14:52:57.954  INFO 7000 --- [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-09 14:52:57.955  INFO 7000 --- [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-09 14:52:57.955  INFO 7000 --- [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-09 14:53:03.385  WARN 7000 --- [http-nio-9099-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.Object com.spring.controller.PostmanContoller.demoMethod(com.spring.model.Student): [Field error in object 'student' on field 'studentName': rejected value [null]; codes [NotNull.student.studentName,NotNull.studentName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [student.studentName,studentName]; arguments []; default message [studentName]]; default message [Name is mandatory]] ]
+2022-07-09 14:54:43.540  INFO 7000 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 14:54:43.542  INFO 7000 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-09 14:54:43.652  INFO 7000 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-09 14:54:43.714  INFO 7000 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Starting SpringApiAppDemoApplication using Java 17.0.3 on LAPTOP-532Q7DSK with PID 7000 (D:\Freelancing\STS Workspace\Spring-Api-App-Demo\target\classes started by SWARAJ in D:\Freelancing\STS Workspace\Spring-Api-App-Demo)
+2022-07-09 14:54:43.715  INFO 7000 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-09 14:54:43.822  INFO 7000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-09 14:54:43.823  INFO 7000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2022-07-09 14:54:43.894  INFO 7000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9099 (http)
+2022-07-09 14:54:43.896  INFO 7000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-09 14:54:43.896  INFO 7000 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-09 14:54:43.912  INFO 7000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-09 14:54:43.912  INFO 7000 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 196 ms
+2022-07-09 14:54:43.938  INFO 7000 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-09 14:54:43.941  INFO 7000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-07-09 14:54:43.957  INFO 7000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-07-09 14:54:43.957  INFO 7000 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-07-09 14:54:43.990  INFO 7000 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-09 14:54:43.991  INFO 7000 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 14:54:44.005  WARN 7000 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-09 14:54:44.030  INFO 7000 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-09 14:54:44.067  INFO 7000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-09 14:54:44.080  INFO 7000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9099 (http) with context path ''
+2022-07-09 14:54:44.085  INFO 7000 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Started SpringApiAppDemoApplication in 0.392 seconds (JVM running for 135.983)
+2022-07-09 14:54:44.088  INFO 7000 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-09 14:54:53.662  INFO 7000 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 14:54:53.663  INFO 7000 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-07-09 14:54:53.667  INFO 7000 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-07-09 14:54:53.723  INFO 7000 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Starting SpringApiAppDemoApplication using Java 17.0.3 on LAPTOP-532Q7DSK with PID 7000 (D:\Freelancing\STS Workspace\Spring-Api-App-Demo\target\classes started by SWARAJ in D:\Freelancing\STS Workspace\Spring-Api-App-Demo)
+2022-07-09 14:54:53.724  INFO 7000 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-09 14:54:53.832  INFO 7000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-09 14:54:53.833  INFO 7000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2022-07-09 14:54:53.915  INFO 7000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9099 (http)
+2022-07-09 14:54:53.915  INFO 7000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-09 14:54:53.915  INFO 7000 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-09 14:54:53.931  INFO 7000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-09 14:54:53.931  INFO 7000 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 206 ms
+2022-07-09 14:54:53.952  INFO 7000 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-09 14:54:53.956  INFO 7000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-07-09 14:54:53.966  INFO 7000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-07-09 14:54:53.966  INFO 7000 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-07-09 14:54:53.986  INFO 7000 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-09 14:54:53.987  INFO 7000 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 14:54:53.999  WARN 7000 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-09 14:54:54.028  INFO 7000 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-09 14:54:54.066  INFO 7000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-09 14:54:54.077  INFO 7000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9099 (http) with context path ''
+2022-07-09 14:54:54.084  INFO 7000 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Started SpringApiAppDemoApplication in 0.378 seconds (JVM running for 145.982)
+2022-07-09 14:54:54.086  INFO 7000 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-09 14:55:06.087  INFO 7000 --- [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-09 14:55:06.087  INFO 7000 --- [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-09 14:55:06.087  INFO 7000 --- [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-09 14:55:06.104  WARN 7000 --- [http-nio-9099-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.Object com.spring.controller.PostmanContoller.demoMethod(com.spring.model.Student): [Field error in object 'student' on field 'stream': rejected value [null]; codes [NotBlank.student.stream,NotBlank.stream,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [student.stream,stream]; arguments []; default message [stream]]; default message [Stream is mandatory]] ]
+2022-07-09 14:58:01.912  INFO 7000 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 14:58:01.912  INFO 7000 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-07-09 14:58:01.916  INFO 7000 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-07-09 14:58:01.967  INFO 7000 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Starting SpringApiAppDemoApplication using Java 17.0.3 on LAPTOP-532Q7DSK with PID 7000 (D:\Freelancing\STS Workspace\Spring-Api-App-Demo\target\classes started by SWARAJ in D:\Freelancing\STS Workspace\Spring-Api-App-Demo)
+2022-07-09 14:58:01.967  INFO 7000 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-09 14:58:02.054  INFO 7000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-09 14:58:02.055  INFO 7000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2022-07-09 14:58:02.101  INFO 7000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9099 (http)
+2022-07-09 14:58:02.102  INFO 7000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-09 14:58:02.102  INFO 7000 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-09 14:58:02.139  INFO 7000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-09 14:58:02.139  INFO 7000 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 171 ms
+2022-07-09 14:58:02.164  INFO 7000 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-09 14:58:02.167  INFO 7000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-07-09 14:58:02.178  INFO 7000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-07-09 14:58:02.178  INFO 7000 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-07-09 14:58:02.209  INFO 7000 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-09 14:58:02.209  INFO 7000 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 14:58:02.220  WARN 7000 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-09 14:58:02.241  INFO 7000 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-09 14:58:02.270  INFO 7000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-09 14:58:02.279  INFO 7000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9099 (http) with context path ''
+2022-07-09 14:58:02.284  INFO 7000 --- [restartedMain] com.spring.SpringApiAppDemoApplication   : Started SpringApiAppDemoApplication in 0.333 seconds (JVM running for 334.181)
+2022-07-09 14:58:02.285  INFO 7000 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-09 14:58:07.852  INFO 7000 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 14:58:07.852  INFO 7000 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-07-09 14:58:07.858  INFO 7000 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
